@@ -1,27 +1,58 @@
 
 ***
 
-<img alt="GSoC (2022) logo failed to load. Click/tap here to attempt to view it" src="/Google_Summer_of_Code_sun_logo_2022.svg" width="200" height="200"/>
+<img alt="Anti-Google Play store logo failed to load. Click/tap here to attempt to view it" src="/Why-you-should-stop-using-Google-Play_1024pxIcon_V1_HighCompression.png" width="200" height="200"/>
 
-# Why you should stop using Google Summer of Code
+# Why you should stop using the Google Play Store
+
+An article on why you should stop using the Google Play Store and find a privacy focused efficient alternative 
 
 <img alt="DeGoogle Ranking scale failed to load. Click/tap here to attempt to view it" src="/10Scale_Legend_V2.svg" width="600" height="400"/>
 
-**DeGoogle intensity level:** `8+`
+**DeGoogle intensity level:** `6-7+`
 
-## What is Google Summer of Code?
+## What is Google Play/The Google Play Store
 
-[Wikipedia: Google Summer of Code](https://en.wikipedia.org/wiki/Google_Summer_of_Code?&useskin=monobook)
+[Wikipedia: Google Play](https://en.wikipedia.org/w/index.php?title=Google_Play&oldid=1149770521&useskin=monobook)
 
-> The Google Summer of Code, often abbreviated to GSoC, is an international annual program in which Google awards stipends to contributors who successfully complete a free and open-source software coding project during the summer. As of 2022, the program is open to anyone aged 18 or over, no longer just students and recent graduates. It was first held from May to August 2005. Participants get paid to write software, with the amount of their stipend depending on the purchasing power parity of the country where they are located. Project ideas are listed by host organizations involved in open-source software development, though students can also propose their own project ideas. 
+> Google Play, also known as the Google Play Store and formerly the Android Market, is a digital distribution service operated and developed by Google. It serves as the official app store for certified devices running on the Android operating system and its derivatives, as well as ChromeOS, allowing users to browse and download applications developed with the Android software development kit (SDK) and published through Google. Google Play has also served as a digital media store, offering games, music, books, movies, and television programs. Content that has been purchased on Google Play Movies & TV and Google Play Books can be accessed on a web browser and through the Android and iOS apps.
 
 ## Problems
 
-The Google Summer of Code doesn't have too many problems, aside from their first event in 2005, which did not give users enough time to prepare their projects, it is mainly a problem if you want to cut ties to Google completely.
+The Google Play store has lots of problems, but is hard to alternate from (due to vendor lock-in) below are a list of problems with the Google Play store.
+
+### [Vendor lock-in](https://en.wikipedia.org/wiki/Vendor_lock-in?&useskin=monobook#Google)
+
+Google Play is a prominent example of vendor lock-in. Like the iOS/iPadOS App Store, there aren't any other good systems that support most programs written for Google Play. Someone switching from Apple would have to start all over with their applications, and in most cases, lose access to apps. The same happens with Google Play.
+
+### Proprietary
+
+The Google Play store is proprietary (closed source) so you cannot see what is going on in the background. Proprietary software is most often a form of malware.
+
+### Access to applications
+
+As Android is a continuously updating operating system, apps designed for older versions stop working if they aren't updated to fit the newest versions. To make things even more problematic, if you own an older device, you may be blocked from using the Google Play store at all, and apps that don't work under certain versions of Android are completely removed, even if the app was once a notable one (such as Angry Birds or iBlast Moki) you may still be able to redownload some of these if you had previously downloaded them under a Google account, but they may not work at all.
 
 ### Google Account
 
-Participating in the GSoC requires a Google Account, which violates user privacy and security.
+Using the Google Play Store requires a Google Account, and also a device running Android or ChromeOS/ChromiumOS, both of which violates user privacy and security.
+
+<!-- ### Harmful to small developers
+!-->
+
+### Regulation of applications
+
+Google Play does not regulate apps very well. If you want to see an example of how poorly regulated the market is, simply look up almost any advertisement produced for Android programs.
+
+**Possible rant, may need cleanup**
+
+Some apps are overregulated, and most apps aren't regulated at all. Google claims that it is impossible to get malware from Android, but some of the top 10000 apps are actually malware ("current" is a money scam app that asks you to turn off developer settings. If you do so (or if they weren't already on) this application will begin to modify your device and popup ads. Luckily, it is easy to uninstall. This scam is still going years later (since 2019 at least) and has been advertisement immensely, with no-one at Google batting an eye)
+
+### Virtualization
+
+Several Android programs have anti-VM code, meaning that they won't work under a virtual machine.
+
+Additionally, small developers who want to distribute Android distributions or install a virtual machine will either have to go through a massive hassle, or be completely forbidden from putting Google Play into their setup.
 
 ### Owned by Google
 
@@ -29,9 +60,18 @@ See above.
 
 ## Alternatives
 
-- [Outreachy](https://www.outreachy.org/)
+### F-Droid
 
-> **Note** Not everyone is allowed to join, as race and sex are factors in membership
+- [Website](https://f-droid.org/)
+- [GitHub organization](https://github.com/f-droid/)
+
+F-Droid is an open source alternative to the Google Play Store. It only allows the distribution of GPL licensed Android programs (APK files) so this way, you can know you aren't getting proprietary malware. You also (most of the time) support smaller software developers this way.
+
+**List another alternative here**
+
+## See also
+
+[:octocat: `Why you should have avoided the Android Market`](https://github.com/seanpm2001/Why-you-should-have-avoided-the-Android-Market/) - Information on the Google Play Stores predecessor: the Android Market
 
 ***
 
@@ -39,6 +79,7 @@ See above.
 
 ***
 
-**File version:** `1 (2023, Thursday, March 2nd at 5:21 pm PST)`
+**File version:** `1 (2023, Friday, April 14th at 5:01 pm PST)`
 
 ***
+ 
